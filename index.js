@@ -89,4 +89,6 @@ bot.on('text', (ctx) => {
   return ctx.reply(`${ctx.message.text}: ${scores}`)
 })
 
+bot.telegram.sendMessage(credentials.telegram_chat_id, 'tes')
+
 bot.launch()
