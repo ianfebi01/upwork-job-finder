@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  upwork-job-finder:
+    restart: always
+    build : .
+    # ports:
+    #   - 5173:80
